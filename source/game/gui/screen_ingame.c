@@ -526,7 +526,7 @@ sprintf(str, "time: %.0f (%.0f)  angle: %.3f", time, day_ticks, angle);
 				  182, 22, 182 * GFX_GUI_SCALE, 22 * GFX_GUI_SCALE);
 
 	gfx_blending(MODE_INVERT);
-	gutil_texquad((width - 16 * GFX_GUI_SCALE) / 2, (height - 16 * GFX_GUI_SCALE) / 2, 0, 229, GFX_GUI_SCALE, GFX_GUI_SCALE,
+	gutil_texquad((width - 16 * GFX_GUI_SCALE) / 2, (height - 16 * GFX_GUI_SCALE) / 2, 0, 229, 16, 16,
 				  16 * GFX_GUI_SCALE, 16 * GFX_GUI_SCALE);
 
 	gfx_blending(MODE_OFF);
